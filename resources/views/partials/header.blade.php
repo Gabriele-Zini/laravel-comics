@@ -12,17 +12,18 @@
             <div class="text-center">
                 <img class="ms_logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo molisana">
             </div>
-            <ul class="d-flex justify-content-center gap-4 text-uppercase list-unstyled fw-bold">
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Collectibles</li>
-                <li>Videos</li>
-                <li>Fans</li>
-                <li>News</li>
-                <li>Shop</li>
+            <ul class="d-flex justify-content-center gap-4 text-uppercase list-unstyled fw-bold m-0">
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Collectibles</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fans</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Shop</a></li>
+
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

@@ -28,8 +28,18 @@ header {
         background-size: cover;
         min-height: 500px;
     }
-}
 
+
+    a {
+        text-decoration: none;
+        color: rgb(30, 27, 27);
+        height: inherit;
+        display: inline-block;
+        &:hover {
+            color :hsl(208.91deg 98.41% 49.22%);
+        }
+    }
+}
 /* MAIN */
 .ms_main-section {
     background-color: hsl(0deg 0% 10.98%);
