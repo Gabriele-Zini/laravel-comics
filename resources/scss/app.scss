@@ -1,16 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
-
-.ms_font-size {
-    font-size: .6rem;
-}
-
+/* RESET */
 img {
         width: 100%;
         aspect-ratio: 1/1;
     }
 
 
+/* UTILITIES */
+.ms_font-size {
+    font-size: .7rem;
+}
 
+/* HEADER */
+
+header {
+    .ms_upper-header {
+        background-color: hsl(208.91deg 98.41% 49.22%);
+        color: white;
+    }
+
+    .ms_logo {
+        width: 80px;
+    }
+
+    .jumbotron {
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
+        min-height: 500px;
+    }
+}
+
+/* MAIN */
 .ms_main-section {
     background-color: hsl(0deg 0% 10.98%);
     padding: 3rem;
@@ -21,5 +41,24 @@ img {
         font-size: .8rem;
         color: white;
         font-weight: bold;
+    }
+
+    .ms_btn {
+        background-color: hsl(208.91deg 98.41% 49.22%);
+        color: white;
+        border: 1px solid transparent;
+        padding: .6rem 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover {
+        background-color: hsl(209, 91%, 40%);
+        }
+    }
+
+    .ms_middle-btn {
+        position: relative;
+        bottom: 5rem;
+        font-size: 2rem;
+        padding: .3rem 1.5rem;
     }
 }
