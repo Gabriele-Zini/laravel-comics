@@ -1,6 +1,6 @@
 <?php
 
-$comics_card = [
+return [
     [
         "thumb" => "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
         "price" => "$19.99",
@@ -74,6 +74,3 @@ $comics_card = [
         "type" => "graphic novel"
     ]
 ];
-
-
-
